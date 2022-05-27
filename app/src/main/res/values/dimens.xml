@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimension_text_25">25sp</dimen>
+    <dimen name="dimension_325">325dp</dimen>
+    <dimen name="dimension_250">250dp</dimen>
+    <dimen name="dimension_30">30dp</dimen>
+    <dimen name="dimension_text_16">16sp</dimen>
+    <dimen name="dimension_text_12">12sp</dimen>
+    <dimen name="dimension_20">20dp</dimen>
+    <dimen name="dimension_10">10dp</dimen>
+</resources>

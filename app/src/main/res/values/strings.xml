@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Minha Música Favorita</string>
+    <string name="image_acdc">Imagem com a logo do AC/DC e do guitarrista Angus Young.</string>
+    <string name="music_name">Back in Black</string>
+    <string name="trecho_musica">"Back in black, I hit the sack
+I've been too long, I'm glad to be back
+Yes, I'm let loose from the noose
+That's kept me hangin' about
+
+I'm just lookin' at the sky 'cause it's gettin' me high
+Forget the hearse, 'cause I'll never die
+I got nine lives, cat's eyes
+Abusin' every one of them and runnin' wild
+
+'Cause I'm back
+Yes, I'm back
+Well, I'm back
+Yes, I'm back
+
+Well, I'm back, back
+Well, I'm back in black
+Yes, I'm back in black"</string>
+</resources>

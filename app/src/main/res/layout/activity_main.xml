@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimension_250"
+            android:contentDescription="@string/image_acdc"
+            android:scaleType="fitXY"
+            android:src="@drawable/acdc_promo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/dimension_10"
+            android:gravity="center"
+            android:text="@string/music_name"
+            android:textSize="@dimen/dimension_text_16" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dimension_30"
+            android:gravity="center"
+            android:text="@string/trecho_musica"
+            android:textSize="@dimen/dimension_text_12" />
+
+    </LinearLayout>
+</ScrollView>
+
