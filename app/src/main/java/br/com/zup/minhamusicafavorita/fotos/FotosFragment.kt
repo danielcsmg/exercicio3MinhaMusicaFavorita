@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
+import br.com.zup.minhamusicafavorita.BANDA
 import br.com.zup.minhamusicafavorita.DetalheAlbumActivity
 import br.com.zup.minhamusicafavorita.R
 import br.com.zup.minhamusicafavorita.databinding.FragmentFotosBinding
@@ -44,7 +45,7 @@ class FotosFragment : Fragment() {
 
     }
 
-    fun adicionarListaDeAlbuns() {
+    private fun adicionarListaDeAlbuns() {
         listaAlbuns = mutableListOf(
             Album(
                 R.drawable.high_voltage_acdc,
@@ -86,8 +87,8 @@ class FotosFragment : Fragment() {
         adapter.atualizarListaAlbuns(listaAlbuns)
     }
 
-    fun irParaDetalheAlbum(album: Album){
-        val bundle = bundleOf("ALBUM" to album)
+    private fun irParaDetalheAlbum(album: Album){
+        val bundle = bundleOf(BANDA to album)
         startActivity(Intent(context, DetalheAlbumActivity::class.java), bundle)
     }
 

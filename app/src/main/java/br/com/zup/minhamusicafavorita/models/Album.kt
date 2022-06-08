@@ -13,7 +13,8 @@ class Album(
     private val gravadora: String,
     private val estudio: String,
     private val formato: String,
-    private val generos: String
+    private val generos: String,
+    val favorito: Boolean = false
 ): Parcelable{
     fun getFotoAlbum() = fotoAlbum
     fun getNomeDoAlbum() = nomeDoAlbum
