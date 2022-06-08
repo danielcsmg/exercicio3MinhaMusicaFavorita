@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".main.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -33,6 +33,17 @@
             android:gravity="center"
             android:text="@string/trecho_musica"
             android:textSize="@dimen/dimension_text_12" />
+
+        <Button
+            android:id="@+id/btnDetalhes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dimension_20"
+            android:layout_marginTop="@dimen/dimension_20"
+            android:layout_marginBottom="@dimen/dimension_20"
+            android:background="@color/secondary_color"
+            android:textColor="@color/white"
+            android:text="@string/mais_sobre_a_banda" />
 
     </LinearLayout>
 </ScrollView>
