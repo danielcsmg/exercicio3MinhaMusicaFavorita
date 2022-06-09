@@ -89,7 +89,10 @@ class FotosFragment : Fragment() {
 
     private fun irParaDetalheAlbum(album: Album){
         val bundle = bundleOf(BANDA to album)
-        startActivity(Intent(context, DetalheAlbumActivity::class.java), bundle)
+        val intent = Intent(context, DetalheAlbumActivity::class.java).apply {
+            putExtra("BUNDLE", bundle)
+        }
+        startActivity(intent)
     }
 
 }

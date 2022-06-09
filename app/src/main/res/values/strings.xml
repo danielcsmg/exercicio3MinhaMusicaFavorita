@@ -23,5 +23,11 @@ Yes, I'm back in black"</string>
     <string name="mais_sobre_a_banda">Mais sobre a banda</string>
     <string name="detalhes_banda">Detalhes da Banda</string>
     <string name="coracao">coração</string>
-
+    <string name="artista">Artista: %s</string>
+    <string name="lancamento">Lançamento: %s</string>
+    <string name="gravadora">Gravadora: %s</string>
+    <string name="estudio">Estúdio: %s</string>
+    <string name="formato">Formato: %s</string>
+    <string name="genero">Gênero: %s</string>
+    <string name="decricao_banda">AC/DC é uma banda australiana de rock formada em Sydney, Austrália em 1973, pelos irmãos escoceses Malcolm e Angus Young. O estilo musical da banda é normalmente classificado como hard rock e até mesmo blues rock. Mas seus membros sempre classificaram a sua música simplesmente como rock and roll.</string>
 </resources>
