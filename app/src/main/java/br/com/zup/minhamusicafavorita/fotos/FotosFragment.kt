@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import br.com.zup.minhamusicafavorita.BANDA
 import br.com.zup.minhamusicafavorita.DetalheAlbumActivity
 import br.com.zup.minhamusicafavorita.R
@@ -39,10 +40,6 @@ class FotosFragment : Fragment() {
 
         recyclerView.adapter = adapter
         recyclerView.layoutManager = GridLayoutManager(context, 2)
-
-        R.layout.card_album
-
-
     }
 
     private fun adicionarListaDeAlbuns() {

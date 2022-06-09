@@ -34,7 +34,7 @@ class DetalheAlbumActivity : AppCompatActivity() {
             mostrarDado(binding.tvGenero, R.string.genero, album.getGeneros())
 
             binding.ivFavorito.setOnClickListener{
-                if (album.favorito == false){
+                if (!album.favorito){
                     Toast.makeText(this, MENSAGEM_FAVORITAR, Toast.LENGTH_LONG).show()
                     album.favorito = true
                 }

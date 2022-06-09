@@ -18,8 +18,8 @@ class AlbumAdapter(
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val item = listaAlbuns[position]
-        holder.setarInformacoes(item)
 
+        holder.setarInformacoes(item)
         holder.binding.cvAlbum.setOnClickListener{
             clickAlbum(item)
         }
